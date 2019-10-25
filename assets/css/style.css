@@ -1705,8 +1705,8 @@ input#e-mail, #hidden_iframe {
   margin: 0;
   opacity: 0.3;
   filter: alpha(opacity=30);
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  -webkit-transform: translateZ(999px) rotateY(180deg);
+  transform: translateZ(999px) rotateY(180deg);
   transition: all 400ms ease-out 0s;
 }
 
